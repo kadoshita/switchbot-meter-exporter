@@ -1,0 +1,2 @@
+# switchbot-meter-exporter
+SwitchBotのMeterのデータをMongoDBにエクスポートするツール
