@@ -1,0 +1,30 @@
+{
+  "name": "switchbot-meter-exporter",
+  "version": "1.0.0",
+  "description": "SwitchBotのMeterのデータをMongoDBにエクスポートするツール",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "ts-node main.ts",
+    "build": "tsc",
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kadoshita/switchbot-meter-exporter.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kadoshita/switchbot-meter-exporter/issues"
+  },
+  "homepage": "https://github.com/kadoshita/switchbot-meter-exporter#readme",
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "csv-parse": "^4.16.0"
+  }
+}
