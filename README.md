@@ -1,2 +1,2 @@
 # switchbot-meter-exporter
-SwitchBotのMeterのデータをMongoDBにエクスポートするツール
+SwitchBotのMeterのデータをInfluxDBにエクスポートするツール
